@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Acharya | Software Engineer • AI Systems & Full-Stack Architecture</title>
+    
+    <!-- Meta & SEO Tags -->
+    <meta name="description" content="Om Acharya — Computer Science Engineer specializing in Full-Stack Web Architecture, Autonomous AI Systems, High-Performance Computing, and Digital Media (500K+ YouTube Audience).">
+    <meta name="keywords" content="Om Acharya, Software Engineer, Full-Stack AI, Python, React, Java, Node.js, Systems Architecture, Content Creator">
+    <meta property="og:title" content="Om Acharya | Software Engineer • AI Systems & Full-Stack Architecture">
+    <meta property="og:description" content="Explore production projects including AI Website Generator Studio, CLI Mathematical Engine, and 500K+ Creator milestone.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- High-Tech SVG Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23090a0f' stroke='%233b82f6' stroke-width='6'/><text x='50' y='64' font-size='42' font-family='monospace' font-weight='bold' fill='%2338bdf8' text-anchor='middle'>OA</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="top-nav">
+    <div class="nav-brand"><a href="index.html">OM ACHARYA</a></div>
+    <div class="nav-links">
+        <a href="index.html" class="active">HOME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="education.html">EDUCATION</a>
+    </div>
+</nav>
+
+<div class="container hero-container">
+    <div class="hero-avatar-wrap">
+        <img src="cropped_circle_image.png" alt="Om Acharya" class="hero-avatar" />
+    </div>
+
+    <div class="card-badge-row" style="justify-content: center; margin-bottom: 14px;">
+        <span class="badge badge-featured">💻 SOFTWARE ENGINEER</span>
+        <span class="badge badge-role">APPLIED AI & SYSTEMS</span>
+        <span class="badge badge-gold">🎬 500K+ YOUTUBE AUDIENCE</span>
+    </div>
+
+    <h1 class="hero-name">Om Acharya</h1>
+    <p class="hero-bio">
+        Computer Science Engineer & Builder specializing in <strong>Full-Stack Web Architecture</strong>, <strong>Autonomous AI Systems</strong>, and <strong>High-Scale Digital Media Strategy</strong>.
+    </p>
+
+    <!-- Quick Stats Metric Row (4 Columns) -->
+    <div class="metrics-row">
+        <div class="metric-card">
+            <div class="metric-val">2+</div>
+            <div class="metric-lbl">PRODUCTION PROJECTS</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-val gold">500K+</div>
+            <div class="metric-lbl">YOUTUBE SUBSCRIBERS SCALED</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-val">100%</div>
+            <div class="metric-lbl">TEST COVERAGE</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-val">24/7</div>
+            <div class="metric-lbl">CLOUD DEPLOYED</div>
+        </div>
+    </div>
+
+    <!-- Core Skills Pills -->
+    <div class="tech-pills" style="justify-content: center; max-width: 760px; margin: 0 auto 32px auto;">
+        <span class="tech-pill node">Software Engineering</span>
+        <span class="tech-pill ai">LLMs & Agentic AI</span>
+        <span class="tech-pill react">React (Vite)</span>
+        <span class="tech-pill python">Java (Core & OOP)</span>
+        <span class="tech-pill python">Python 3.12</span>
+        <span class="tech-pill html">HTML5 / CSS3</span>
+        <span class="tech-pill node">Node.js / Express</span>
+        <span class="tech-pill db">SQLite & Databases</span>
+        <span class="tech-pill cloud">Edge Cloud Hosting</span>
+        <span class="tech-pill auth">Audience & Retention Analytics</span>
+        <span class="tech-pill cloud">Content Strategy & Media Production</span>
+    </div>
+
+    <!-- Navigation Action Buttons -->
+    <div class="hero-cta-group">
+        <a href="projects.html" class="btn btn-primary">
+            🚀 Explore Featured Projects →
+        </a>
+        <a href="https://github.com/lukedale7776-web" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            💻 GitHub Profile
+        </a>
+        <a href="https://youtube.com/@bizarreshits?si=qPUZygNQybqfwOqD" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color: rgba(239, 68, 68, 0.35); color: #fca5a5;">
+            🎬 YouTube (500K+)
+        </a>
+        <button id="copyEmailBtn" class="btn btn-secondary" onclick="copyEmail()">
+            📋 Copy Email
+        </button>
+    </div>
+    <div id="copyToast" class="copy-toast">Email copied to clipboard: lukedale7776@gmail.com ✨</div>
+</div>
+
+<footer class="footer">
+    © 2026 Om Acharya • Built with passion and code.
+</footer>
+
+<script>
+function copyEmail() {
+    navigator.clipboard.writeText('lukedale7776@gmail.com').then(() => {
+        const toast = document.getElementById('copyToast');
+        const btn = document.getElementById('copyEmailBtn');
+        btn.innerText = '✅ Copied!';
+        toast.classList.add('show');
+        setTimeout(() => {
+            btn.innerText = '📋 Copy Email';
+            toast.classList.remove('show');
+        }, 2500);
+    });
+}
+</script>
+</body>
+</html>
